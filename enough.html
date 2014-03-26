@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h3>Let's find out if you ordered enough pizza!!</h3>
+<script>
+var pies = prompt ("How many pies did you order?");
+var people = prompt ("How many people are eating pizza?");
+
+var pies2 = parseInt(pies, 10);
+var people2 = parseInt(people, 10);
+
+var pies3 = pies2 * 8;
+var slice = people2 * 2;
+
+console.log (pies2 + " pies are " + pies3 + " slices");
+console.log  (people2 + " people need " + slice + " slices");
+
+if (pies3 >= slice) 
+	console.log ("ENOUGH!");
+else 
+	console.log("U NEED MOAR 'ZA");
+
+
+</script>
+</body>
+</html>
